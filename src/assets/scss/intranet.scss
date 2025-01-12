@@ -1,0 +1,144 @@
+/******************
+  BOUTON INTRANET
+*******************/ 
+
+.btn-intranet {
+    color: #fff;
+    background-color: #12005C; /* Couleur intranet */
+    border-color: #12005C;
+}
+
+.btn-intranet:hover {
+    color: #fff;
+    background-color: #0e004a; /* Couleur légèrement plus foncée pour hover */
+    border-color: #0e004a;
+}
+
+.btn-intranet:focus, .btn-intranet.focus {
+    color: #fff;
+    background-color: #0e004a;
+    border-color: #0e004a;
+    box-shadow: 0 0 0 0.2rem rgba(18, 0, 92, 0.5); /* Ombre */
+}
+
+.btn-intranet.disabled, .btn-intranet:disabled {
+    color: #fff;
+    background-color: #12005C;
+    border-color: #12005C;
+}
+
+.btn-intranet:not(:disabled):not(.disabled):active,
+.btn-intranet:not(:disabled):not(.disabled).active,
+.show > .btn-intranet.dropdown-toggle {
+    color: #fff;
+    background-color: #0a003b; /* Couleur plus foncée pour active */
+    border-color: #0a003b;
+}
+
+.btn-intranet:not(:disabled):not(.disabled):active:focus,
+.btn-intranet:not(:disabled):not(.disabled).active:focus,
+.show > .btn-intranet.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(18, 0, 92, 0.5);
+}
+
+/*************************
+  BOUTON INTRANET OUTLINE 
+**************************/ 
+
+.btn-outline-intranet {
+    color: #12005C;
+    background-color: transparent;
+    border-color: #12005C;
+}
+
+.btn-outline-intranet:hover {
+    color: #fff;
+    background-color: #12005C;
+    border-color: #12005C;
+}
+
+.btn-outline-intranet:focus, .btn-outline-intranet.focus {
+    box-shadow: 0 0 0 0.2rem rgba(18, 0, 92, 0.5);
+}
+
+.btn-outline-intranet.disabled, .btn-outline-intranet:disabled {
+    color: #12005C;
+    background-color: transparent;
+}
+
+.btn-outline-intranet:not(:disabled):not(.disabled):active,
+.btn-outline-intranet:not(:disabled):not(.disabled).active,
+.show > .btn-outline-intranet.dropdown-toggle {
+    color: #fff;
+    background-color: #12005C;
+    border-color: #12005C;
+}
+
+.btn-outline-intranet:not(:disabled):not(.disabled):active:focus,
+.btn-outline-intranet:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-intranet.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(18, 0, 92, 0.5);
+}
+
+/*************************
+  BACKGROUND INTRANET  
+**************************/ 
+.bg-intranet {
+    background-color: #12005C !important;
+    color: #fff; /* Texte en blanc pour assurer la lisibilité */
+}
+
+.border-intranet {
+    border-color: #12005C !important;
+}
+
+
+/*************************
+  LIENS INTRANET  
+**************************/
+
+.link-intranet {
+    color: #12005C; /* Couleur intranet pour les liens */
+    text-decoration: none; /* Optionnel : supprime la ligne de soulignement */
+}
+
+.link-intranet:hover {
+    color: #0e004a; /* Couleur légèrement plus foncée au survol */
+    text-decoration: underline; /* Ajoute une soulignure au survol */
+}
+
+.link-intranet:focus {
+    color: #0e004a;
+    text-decoration: underline;
+    outline: 2px solid rgba(18, 0, 92, 0.5); /* Ajoute un contour pour l'accessibilité */
+}
+
+.link-intranet:active {
+    color: #0a003b; /* Couleur encore plus foncée lorsqu'il est actif */
+    text-decoration: underline;
+}
+
+.text-intranet {
+    color: #0e004a;
+}
+
+/*********************
+  BORDURES INTRANET
+*********************/
+
+.border-intranet {
+    border: 1px solid #12005C !important; /* Bordure normale avec couleur tertiary */
+}
+
+.border-intranet:hover {
+    border: 1px solid #0e004a !important; /* Couleur légèrement plus foncée au survol */
+}
+
+.border-intranet:focus {
+    border: 1px solid #0e004a !important;
+    box-shadow: 0 0 0 0.2rem rgba(18, 0, 92, 0.5); /* Ajoute une ombre pour l'accessibilité */
+}
+
+.border-intranet:active {
+    border: 1px solid #0a003b !important; /* Couleur encore plus foncée lorsqu'il est actif */
+}

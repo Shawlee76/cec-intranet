@@ -1,0 +1,12 @@
+// custom.scss
+
+// Import Bootstrap's functions and variables
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// Personnaliser les couleurs
+$primary: #12005c;  // Exemple de personnalisation de la couleur primaire
+$secondary: #33c2ff;  // Exemple de personnalisation de la couleur secondaire
+
+// Import Bootstrap pour appliquer les nouvelles variables
+@import "~bootstrap/scss/bootstrap";
